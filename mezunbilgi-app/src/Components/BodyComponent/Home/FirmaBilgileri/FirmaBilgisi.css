@@ -1,0 +1,21 @@
+.firmaBilgileriniDuzenle{
+    margin-top: 50px;
+   
+    margin-left: 265px;
+    overflow-y: auto;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 912px) {
+    .firmaBilgileriniDuzenle {
+        margin-left:0;
+        width:100% ;
+        height: 95%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+    .firmaBilgileriniDuzenle {
+        width: auto;
+        height: 95%;
+    }
+}
